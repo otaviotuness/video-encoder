@@ -76,9 +76,9 @@ func getClientUpload() (*storage.Client, context.Context, error) {
 
 func (vu *VideoUpload) ProcessUpload(concurrency int, doneUpload chan string) error {
 
-	//vai gerar um buffer com a quantidade de canais que a máquina tem
+	//qual arquvio ele vai ler na posicao do slice
 	in := make(chan int, runtime.NumCPU())
-	//que avisar que terminou o upload
+	//avisa quando tem problema
 	returnChannel := make(chan string)
 
 	err := vu.loadPaths()
@@ -109,6 +109,7 @@ func (vu *VideoUpload) ProcessUpload(concurrency int, doneUpload chan string) er
 			break
 		}
 	}
+
 	return nil
 }
 
