@@ -1,22 +1,20 @@
-# Video Encoder
+# Codificador de Vídeo
 
-## Description
+## Descrição
 
-This project is a video encoder implemented in Go that allows you to efficiently encode videos into various formats and codecs. It aims to provide a simple and straightforward API to integrate video encoding capabilities into your applications or services.
+Este projeto é um codificador de vídeo implementado em Go que permite codificar vídeos de maneira eficiente em vários formatos e codecs. Ele tem como objetivo fornecer uma API simples e direta para integrar capacidades de codificação de vídeo em suas aplicações ou serviços.
 
-## Getting Started
+### Pré-requisitos
 
-### Prerequisites
+Certifique-se de ter o Go instalado em seu sistema. Este projeto requer a versão 1.14 ou superior do Go.
 
-Make sure you have Go installed on your system. This project requires Go version 1.14 or higher.
+### Instalação
 
-### Installation
-
-To install the video encoder library, run the following command:
+Para instalar a biblioteca de codificação de vídeo, execute o seguinte comando:
 
 ```bash
 docker-compose up --build
 ```
 
-### Contact
-If you have any questions, suggestions, or feedback, you can reach me at otavio.tuness@gmail.com
+### Contato
+Se você tiver alguma dúvida, sugestão ou feedback, pode me contatar em otavio.tuness@gmail.com.
